@@ -1,0 +1,307 @@
+.page-3c-animation .navbar #logo {
+  width: 100%;
+  max-height: 100% !important; }
+
+.page-3c-animation .navbar .navigation-logo {
+  width: 9%;
+  min-width: 70px; }
+
+.page-3c-animation .navbar.navbar {
+  position: absolute;
+  width: 100%; }
+  .page-3c-animation .navbar.navbar .container {
+    width: 95%;
+    max-width: 95%;
+    margin: 0px auto;
+    padding: 0px; }
+
+.page-3c-animation .navbar .navigation-logo {
+  text-align: center; }
+
+.page-3c-animation .navbar .navigation-icon .account-login {
+  color: #6d6d6d;
+  font-family: 'UTMBebas';
+  text-transform: uppercase;
+  line-height: 1.3em;
+  font-size: -webkit-calc(1.2vw + 3px);
+  font-size: calc(1.2vw + 3px); }
+  @media screen and (max-width: 768px) {
+    .page-3c-animation .navbar .navigation-icon .account-login {
+      font-size: -webkit-calc(2.2vw + 3px);
+      font-size: calc(2.2vw + 3px); } }
+
+.navigation-logo {
+  z-index: 2; }
+
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1; }
+
+.navigation-icon button {
+  outline: none; }
+
+.navbar-icons .dropdown-menu {
+  position: absolute !important; }
+
+.sapporo-header-color {
+  background-color: #f6a95a; }
+
+.navbar-nav.menu-links li a {
+  padding-top: 0;
+  padding-bottom: 0;
+  letter-spacing: normal;
+  font-family: "UTM Bebas"; }
+
+/* Navigation */
+.menu-links > li {
+  font-size: 17px;
+  font-weight: lighter;
+  padding: .5rem 2rem .5rem 2rem !important; }
+
+.menu-links .dropdown-menu li a {
+  padding: .5em 1em .5em 1em; }
+
+.navbar-nav li a {
+  color: #ffffff;
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 0; }
+
+.menu-links .dropdown {
+  top: 80%; }
+
+.menu-links .dropdown-menu {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
+
+.menu-icons .dropdown-menu {
+  top: 125%; }
+
+.menu-icons .dropdown-item.active, .menu-icons .dropdown-item:active {
+  background-color: transparent; }
+
+.navbar-nav li .dropdown-menu a {
+  color: #000; }
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block; }
+
+.dropdown-menu li {
+  position: relative; }
+
+.submenu-icon > a:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f0da";
+  float: right;
+  border: none;
+  margin-left: 0.5em; }
+
+.dropdown-submenu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px; }
+
+@media (min-width: 992px) {
+  .dropdown .dropdown-menu {
+    -o-animation-duration: 0.3s;
+       animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    -o-animation-fill-mode: both;
+       animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: slideIn;
+         -o-animation-name: slideIn;
+            animation-name: slideIn; } }
+.form-control:focus {
+  border-color: var(--yellow);
+  box-shadow: none;
+  -webkit-box-shadow: none; }
+
+::-moz-selection {
+  background: var(--light-yellow);
+  color: #ffffff; }
+
+::selection {
+  background: var(--light-yellow);
+  color: #ffffff; }
+
+.dropdown .dropdown-menu li > ul {
+  margin: 0px; }
+
+.dropdown .dropdown-menu li > ul > li {
+  list-style: none; }
+
+.dropdown .dropdown-menu a:hover {
+  background-color: lightgray; }
+
+.dropdown-menu-arrow {
+  top: -25px;
+  left: 33px;
+  width: 0;
+  height: 0;
+  position: relative; }
+
+.dropdown-menu-arrow-search {
+  left: 15%; }
+
+.dropdown-menu-arrow-right {
+  left: 90%; }
+
+.dropdown-menu-arrow-left {
+  right: 10%; }
+
+.dropdown-menu-arrow:before,
+.dropdown-menu-arrow:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 7px 8px;
+  border-style: solid;
+  border-color: transparent;
+  z-index: 1001; }
+
+.dropdown-menu-arrow:after {
+  bottom: -18px;
+  right: -8px;
+  border-bottom-color: #fff; }
+
+.dropdown-menu-arrow:before {
+  bottom: -17px;
+  right: -8px;
+  border-bottom-color: rgba(0, 0, 0, 0.15); }
+
+/* nav animations */
+@media (min-width: 992px) {
+  .animate {
+    -o-animation-duration: 0.3s;
+       animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    -o-animation-fill-mode: both;
+       animation-fill-mode: both;
+    -webkit-animation-fill-mode: both; } }
+@-o-keyframes slideIn {
+  0% {
+    -o-transform: translateY(1rem);
+       transform: translateY(1rem);
+    opacity: 0; }
+  100% {
+    -o-transform: translateY(0rem);
+       transform: translateY(0rem);
+    opacity: 1; }
+  0% {
+    -o-transform: translateY(1rem);
+       transform: translateY(1rem);
+    opacity: 0; } }
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(1rem);
+         -o-transform: translateY(1rem);
+            transform: translateY(1rem);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0rem);
+         -o-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1; }
+  0% {
+    -webkit-transform: translateY(1rem);
+         -o-transform: translateY(1rem);
+            transform: translateY(1rem);
+    opacity: 0; } }
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0; }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1; }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0; } }
+.slideIn {
+  -webkit-animation-name: slideIn;
+  -o-animation-name: slideIn;
+     animation-name: slideIn; }
+
+/* accordion */
+.accordion .card-header {
+  padding: 0; }
+
+.accordion .card-header .btn {
+  text-decoration: none;
+  color: var(--yellow);
+  padding: .5em 0 0 1.2em;
+  font-weight: 600; }
+
+.sidepanel {
+  background-image: url("https://www.sapporo-starguide.com/static/images/sapporo/sidebar/bg-navigation.png");
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s; }
+
+.sidepanel .sidebar-header {
+  padding: 2rem 2rem 1rem 4rem;
+  font-size: 30px;
+  color: #f6a95a; }
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+       -o-transition: 0.3s;
+          transition: 0.3s;
+  white-space: nowrap; }
+
+@media only screen and (max-height: 667px) {
+  .sidepanel a {
+    font-size: 20px;
+    line-height: 20px; } }
+.sidepanel a:hover {
+  color: #f6a95a !important; }
+
+.sidepanel a:hover:before, .sidepanel a.active:before {
+  content: url(https://www.sapporo-starguide.com/static/images/sapporo/sidebar/star-icon.png);
+  margin-right: 4px; }
+
+.sidepanel #close-sapporo-nav {
+  cursor: pointer;
+  width: 24px; }
+
+.sidepanel a.hidden {
+  display: none; }
